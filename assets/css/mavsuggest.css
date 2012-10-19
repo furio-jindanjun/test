@@ -1,0 +1,59 @@
+div.suggest-opts {
+	position: absolute;
+	z-index: 500;
+	border: 1px solid #ddd;
+	background: #f4f4f4;
+	background: -moz-linear-gradient(center top , #f4f4f4, #d4d4d4) repeat #F5F5F5;
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#d4d4d4)) repeat #F5F5F5;
+	overflow: hidden;
+	box-shadow:0 1px 1px #aaa;
+}
+	div.suggest-opts div {
+		margin:1px;
+		cursor: default;
+		padding: 2px 4px;
+		overflow: hidden;
+		width: auto ;
+	}
+		.suggest-opts div.selected { background-color: #d9eafb; }
+
+
+ul.suggest-opts {
+	position: absolute;
+	z-index: 50;
+	background: #f4f4f4;
+	background: -moz-linear-gradient(center top , #f4f4f4, #d4d4d4) repeat #F5F5F5;
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#d4d4d4)) repeat #F5F5F5;
+	color: #666;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-shadow:0 1px 1px #aaa;
+}
+	ul.suggest-opts li {
+		position: relative;
+		display: block;
+		float: none !important;
+		cursor: pointer;
+		white-space: nowrap;
+		padding: 2px 4px;
+		overflow: hidden;
+		font-weight: 600;
+		text-transform: capitalize;
+	}
+		ul.suggest-opts li span { font-weight: bold; }
+		ul.suggest-opts li.selected {
+			background-color: #333;
+			background-color: rgba(51,51,51,.7);
+			color: #fff;
+			-webkit-transition:background-color 0.5s ease-in-out;
+			-moz-transition:background-color 0.5s ease-in-out;
+			-o-transition:background-color 0.5s ease-in-out;
+			-ms-transition:background-color 0.5s ease-in-out;	
+			transition:background-color 0.5s ease-in-out;
+		}
+		ul.suggest-opts li.selected span { color: #9fcfff; }
+		.suggest-details { color: #555; font-size: 90%; }
+		ul.suggest-opts li.selected .suggest-details { color: #ccc; }
+
+.suggest-opts li div{font-size:12px;padding:3px;text-align:left;font-weight:100;}

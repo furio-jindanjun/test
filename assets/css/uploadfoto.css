@@ -1,0 +1,8 @@
+#photoalbum .row {float:left;text-align:center;width:25%;background:#FFF;color:#000;overflow:hidden}
+.row a{color:#aaa}
+.row a:hover{color:#507B22}
+.headertable{display:none}
+.contentright .leftcol.withheader{top:50px}
+#select-0{width:100%;text-align:center;font-size:120%;font-weight:900}
+.scrolledtable{border-top-color:#fff}
+

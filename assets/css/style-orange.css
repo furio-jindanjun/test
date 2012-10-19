@@ -1,0 +1,23 @@
+body{background:url("../images/orange/bg-gradient.jpg") repeat-x fixed top center #f6f5f0}
+#wrap {
+    background: url("../images/orange/bg-pattern.png") repeat-x scroll left top, url("../images/orange/logo.png") no-repeat scroll 30px 53px;
+}
+#wrap.loadingbg{
+  background: url("../images/orange/bg-pattern.png") repeat-x scroll left top,url("../images/loading3.gif") no-repeat center,url("../images/orange/logo.png") no-repeat 30px 53px;
+}
+#header{border-bottom:1px solid #D7B5AB;}
+button, .button{background:#671D1D;border:1px solid #D7B5AB;color:#FFF}
+button:hover{background:#91351E;color:#fff;border-color:#fff
+}
+#mainmenu a,#logoutdiv,#submenu a{color:#671D1D}
+.boxtitle,.overTxtLabel{color:#3A2B27}
+.emptywrap input {color:#F0F0F0}
+.headertable {background: #582518}
+a:hover,button:hover,a:focus,button:focus,#select-0.hover{color:#FFF;background:#9B4630}
+.btnadd, .btndel, .btnedit, .btnview {background:#E9D9D1;}
+.btnadd{background:url("../images/orange/addnew.gif") no-repeat;color:#3A2B27;}
+.btnadd:hover{background:url("../images/orange/addnewhover.gif") no-repeat;color:#3A2B27;text-shadow:0px 0px 1px #D5B3A6}
+.inputcontainer label, .formul label, .stocktimeline label {color:#15110F}
+.inputcontainer input, select, textarea, .mooeditable-iframe, .formeditor input {color:#D5B3A6}
+option {background:#D5B3A6;}
+#footer{color:#CCC}

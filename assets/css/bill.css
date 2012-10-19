@@ -1,0 +1,21 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}
+
+#bill{background:#fff;width:98%;margin:0 auto;padding:10px;color:#333;font-size:1em;line-height:1.2em}
+.title{font-weight:900}
+.bloc-frame{clear:both;padding:5px 0;overflow:hidden}
+.bloc-left{float:left}
+.bloc-right{float:right;min-width:30%}
+.arite{text-align:right}
+
+.bloc-frame p{}
+.bloc-frame p label{display:inline-block;width:100px}
+
+table{width:100%;background:#fff;margin:1em 0}
+thead th{border-top:2px groove #aaa;border-bottom:2px groove #aaa}
+th,td{padding:.1em}
+td.arite{padding-left:0px}
+td label{float:left}
+.rowadmin td{border-top:2px groove #aaa}
+.rowkonsul td{border-bottom:2px groove #aaa}
+.hormat,.terima{padding-top:2em}
+.namecol{margin-top:5em;border-bottom:1px solid #333;width:7em}

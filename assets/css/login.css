@@ -1,0 +1,22 @@
+#logoutdiv{display:none}
+body.smooth #logo{background: none}
+body.smooth #sainfrm{
+	background:url("../images/orange/login-box-br.png") no-repeat top center;
+	height:359px;margin:0 auto;padding:146px 25px 13px;width:494px;overflow:hidden
+}
+label{clear:left;color:#FDE0BC;display:block;float:left;width:185px;text-align:right;font-size:25px}
+input{background:transparent !important;border-bottom:1px solid #FDE0BC;clear:right;color:#444;display:block;float:right;font-size:25px;height:auto;margin-right:46px;width:50%;font-family:corbel;}
+button{display:block;margin: 0 auto}
+.divider-horizontal{
+ border-bottom: 0px dotted #DDDDDD;
+    clear: both;
+    display: block;
+    margin: 1em 0;
+    padding-top: 1em;
+}
+#body-login #header{background:transparent;border-bottom:none;box-shadow:none}
+input:focus{outline:none !important}
+#wrap{background:url("../images/orange/bg-pattern.png") repeat-x top left}
+#wrap.loadingbg{
+  background:url("../images/orange/bg-pattern.png") repeat-x top left,url("../images/loading3.gif") no-repeat center;
+}

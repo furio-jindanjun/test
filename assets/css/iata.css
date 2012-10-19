@@ -1,0 +1,4 @@
+select{padding:2px}
+option{padding:2px}
+option:even{background:#333}
+option b{font-weight:900;color:#777}

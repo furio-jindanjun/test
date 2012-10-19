@@ -1,0 +1,84 @@
+#logoutdiv{}
+#logo{text-indent:0px;padding:4px 0;width:100px;text-align:center}
+body.smooth #logo{background: none}
+body.smooth #sainfrm{
+	background:url("../images/amana/login-box.png") no-repeat top center;
+	height:359px;margin:0 auto;padding:146px 25px 13px;width:494px;overflow:hidden
+}
+label{clear:left;color:#333;display:block;float:left;width:210px;text-align:right;font-size:25px}
+input{background:transparent !important;border-bottom:1px solid #666;clear:right;color:#444;display:block;float:right;height:auto;width:50%;}
+input[disabled]{border:none;margin-top:2px;font-family:CorbelRegular}
+input.kamount[disabled]{color:#000;padding:0}
+.divider-horizontal{
+ border-bottom: 1px dotted #DDDDDD;
+    clear: both;
+    display: block;
+    margin: 1em 0;
+    padding-top: 1em;
+}
+#body-login #header{background:transparent;border-bottom:none;box-shadow:none}
+input:focus{outline:none !important;color:#eee !important;background:rgba(102,102,102,.5) !important}
+#wrap{background:url("../images/amana/bg-pattern.png") repeat-x top left}
+#wrap.loadingbg{
+  background:url("../images/amana/bg-pattern.png") repeat-x top left,url("../images/loading3.gif") no-repeat center;
+}
+.content{top:45px;bottom:10px}
+.headertable{top:21px}
+#kasir-header{padding-left:100px;float:left;padding-top:6px}
+#kasir-header label,#kasir-header input{font-size:14px;clear:none;width:auto}
+#kasir-header label{padding:0 6px;width:auto}
+#kasir-header input{float:left;color:#333;margin-right:46px}
+.contentheader{top:0px}
+#itemsearch{font-size:14px;margin:0;float:none;box-shadow:15px 4px 10px rgba(240, 240, 240, 0.2) inset}
+
+.rowitem{position:relative;padding:4px 0}
+.delbtn{position:absolute;top:1px;left:1px;padding:1px 2px 0;background:#f30;color:#fff;opacity:.2;font-size:10px}
+.rowitem:hover .delbtn{opacity:1}
+.nodata{padding:2% 0}
+.headertable span{display:block}
+.zebrahead{background:rgba(255,255,255,.1)}
+.kurut{text-align:center}
+.kprice div,.kamountdiv,.ksub div{text-align:right}
+.kamountdiv{}
+.scrolledtable .row .kamount{float:right}
+.kamount,.ksub div,.kprice div{margin-right:5px !important;float:right !important}
+.ksub{}
+
+.leftcol.withheader{bottom:261px;background:rgba(221,221,221,.6);top:50px} 
+#tblfooter{background:rgba(255, 255, 255, 0.3);height:260px;position:absolute;bottom:0px;width:100%;right:0}
+#keterangan{position:absolute;left:5px;top:0;width:310px}
+#keterangan textarea{background:rgba(255,255,255,.8);box-shadow:4px 10px 10px #eee inset;border:none;color:#666;height:140px}
+#keterangan textarea:focus(color:#000 !important)
+#keterangan label{text-align:center;width:100%;font-size:20px}
+#totalfooter{position:absolute;right:5px;top:5px;width:30%}
+#totalfooter label{width:40%;display:block;float:left;clear:none;font-size:14px}
+.footerlbl{}
+.footerval{}
+.detilbayar{}
+.detilbayar h2{color:#333;font-size:20px;padding-top:8px}
+.detilbayar li{clear:both;overflow:hidden;padding:2px 0}
+.detilbayar input{margin:0}
+.detilbayar label{width:40%}
+.detilbayar select{width:50%;float:right;border-color:#aaa;background:#eee}
+.detilbayar select:focus{background:#333}
+#ktotal,#sisa{font-weight:900;font-size:20px}
+#ktotal{color:#00A56B}
+#sisa{color:#BF8218}
+#sisa.lunas{color:blue}
+#lunas{position:absolute;bottom:0;left:50%;margin-left:-40px;width:80px;text-align:center;font-size:16px;border:1px solid #eee;border-bottom:none;box-shadow:0px 0px 3px #333;
+	background:-moz-linear-gradient(center top, blue, darkblue);
+	background:-webkit-gradient(linear, left top,50,left bottom,90, from(blue), to(darkblue)) no-repeat #a00;
+}
+.keywordsearch:focus{background: #333 !important}
+.searchin{font-style:italic}
+.searchin:focus{font-style:normal}
+ul.suggest-opts li span {float:right}
+#prevedc{background:rgba(0,0,0,0.6);height:152px;overflow:auto;}
+#prevedc li{padding:2px;clear:both}
+#prevedc b{float:right;text-align:right}
+#prevedcframe{top:12px;position:absolute;left:50%;width:35%;margin-left:-15%;box-shadow:0px 0px 3px #666}
+#prevedcframe div{background:#333;text-align:center}
+
+#buttonframe{position:absolute;left:5px;bottom:5px}
+#edcptax{background:#666;margin-top:1em;opacity:0.8;padding:2px 4px;position:absolute;right:0;display:none;}
+.detilbayar li:hover #edcptax{display:block}
